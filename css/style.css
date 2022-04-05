@@ -17,6 +17,7 @@ header div {
     margin-top: 10px;
     margin-left: 20px;
     display: inline-block;
+    vertical-align: middle;
 }
 
 #titolo {
