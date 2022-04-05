@@ -8,13 +8,19 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header div {
+    height: 70px;
+}
+
 #logo {
-    margin-top: 5px;
-    margin-left: 10px;
-    display: inline;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-block;
 }
 
 #titolo {
     display: inline-block;
+    font-size: 30px;
     vertical-align: middle;
 }
