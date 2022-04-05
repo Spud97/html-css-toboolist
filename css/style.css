@@ -6,10 +6,16 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 header div {
     height: 70px;
+    background-color: white;
+}
+
+section {
+    position: relative;
 }
 
 #logo {
@@ -22,6 +28,43 @@ header div {
 
 #titolo {
     display: inline-block;
-    font-size: 30px;
+    font-size: 38px;
     vertical-align: middle;
+}
+
+#addtask {
+    width: 70px;
+    background-color: rgb(99, 159, 249);
+    margin-left: 52px;
+    margin-top: 14px;
+}
+
+#addsection {
+    width: 80px;
+    border: 2px solid rgb(169, 166, 166);
+    margin-left: 3px;
+}
+
+#box1 {
+    height: 55px;
+    margin-top: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.box {
+    width: 900px;
+    background-color: white;
+}
+
+.minibox {
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 14px;
+    display: inline-block;
+    font-size: 11px;
+    text-align: center;
 }
